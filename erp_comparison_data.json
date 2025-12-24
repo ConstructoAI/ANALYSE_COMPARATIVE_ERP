@@ -1,0 +1,620 @@
+{
+  "metadata": {
+    "title": "Analyse Comparative ERP - Constructo AI",
+    "date": "2025-12-24",
+    "version": "1.0",
+    "author": "Claude Opus 4.5"
+  },
+
+  "erp_systems": [
+    {
+      "id": "constructo_ai",
+      "name": "Constructo AI",
+      "category": "Spécialisé Construction Québec",
+      "target_market": "PME Construction Québec",
+      "pricing_tier": "Accessible PME",
+      "year_founded": 2024
+    },
+    {
+      "id": "sap",
+      "name": "SAP S/4HANA",
+      "category": "ERP Enterprise",
+      "target_market": "Grandes Entreprises Mondiales",
+      "pricing_tier": "$100K-$1M+/an",
+      "year_founded": 1972
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle Construction",
+      "category": "ERP Enterprise Construction",
+      "target_market": "Mégaprojets Infrastructure",
+      "pricing_tier": "$100K-$500K+/an",
+      "year_founded": 1977
+    },
+    {
+      "id": "procore",
+      "name": "Procore",
+      "category": "Construction Management",
+      "target_market": "Contractors Toutes Tailles",
+      "pricing_tier": "Élevé pour PME",
+      "year_founded": 2002
+    },
+    {
+      "id": "sage",
+      "name": "Sage 100 Contractor",
+      "category": "ERP PME Construction",
+      "target_market": "PME Construction Établies",
+      "pricing_tier": "Moyen",
+      "year_founded": 1981
+    },
+    {
+      "id": "quickbooks",
+      "name": "QuickBooks Contractor",
+      "category": "Comptabilité PME",
+      "target_market": "Petites Entreprises",
+      "pricing_tier": "Économique",
+      "year_founded": 1983
+    }
+  ],
+
+  "global_scores": {
+    "chart_type": "bar_chart",
+    "title": "Score Global ERP Construction 2025",
+    "max_score": 50,
+    "data": [
+      { "erp": "Constructo AI", "score": 43, "percentage": 86, "color": "#2E86AB" },
+      { "erp": "Procore", "score": 39, "percentage": 78, "color": "#A23B72" },
+      { "erp": "Oracle Construction", "score": 36, "percentage": 72, "color": "#F18F01" },
+      { "erp": "SAP S/4HANA", "score": 35, "percentage": 70, "color": "#C73E1D" },
+      { "erp": "Sage 100 Contractor", "score": 35, "percentage": 70, "color": "#3B1F2B" },
+      { "erp": "QuickBooks", "score": 35, "percentage": 70, "color": "#95C623" }
+    ]
+  },
+
+  "criteria_ratings": {
+    "chart_type": "radar_chart",
+    "title": "Comparaison Multi-Critères (sur 5)",
+    "criteria": [
+      "Spécialisation Construction",
+      "IA Native",
+      "Comptabilité Complète",
+      "Facilité d'Utilisation",
+      "Coût PME",
+      "Scalabilité",
+      "Multi-Tenant",
+      "Conformité Québec",
+      "API/Intégrations",
+      "Support Mobile"
+    ],
+    "data": {
+      "constructo_ai": [5, 5, 5, 4, 5, 4, 5, 5, 4, 3],
+      "sap": [3, 3, 5, 2, 1, 5, 5, 2, 5, 4],
+      "oracle": [4, 3, 5, 2, 1, 5, 5, 2, 5, 4],
+      "procore": [5, 4, 2, 5, 3, 4, 4, 2, 5, 5],
+      "sage": [5, 1, 5, 3, 4, 3, 2, 3, 3, 3],
+      "quickbooks": [3, 2, 4, 5, 5, 2, 1, 3, 4, 5]
+    }
+  },
+
+  "domain_scores": {
+    "chart_type": "grouped_bar_chart",
+    "title": "Scores par Domaine Fonctionnel (sur 100)",
+    "domains": [
+      {
+        "name": "Comptabilité",
+        "scores": {
+          "constructo_ai": 95,
+          "sap": 90,
+          "oracle": 88,
+          "sage": 92,
+          "quickbooks": 75,
+          "procore": 45
+        }
+      },
+      {
+        "name": "Paie Québec",
+        "scores": {
+          "constructo_ai": 98,
+          "sap": 60,
+          "sage": 65,
+          "quickbooks": 55,
+          "procore": 30,
+          "oracle": 50
+        }
+      },
+      {
+        "name": "Gestion Projets",
+        "scores": {
+          "constructo_ai": 88,
+          "procore": 95,
+          "oracle": 92,
+          "sap": 80,
+          "sage": 70,
+          "quickbooks": 50
+        }
+      },
+      {
+        "name": "CRM & Ventes",
+        "scores": {
+          "constructo_ai": 85,
+          "procore": 75,
+          "sap": 88,
+          "oracle": 80,
+          "sage": 60,
+          "quickbooks": 55
+        }
+      },
+      {
+        "name": "Conformité Québec",
+        "scores": {
+          "constructo_ai": 100,
+          "sage": 45,
+          "quickbooks": 40,
+          "sap": 30,
+          "oracle": 25,
+          "procore": 20
+        }
+      }
+    ]
+  },
+
+  "ai_comparison": {
+    "chart_type": "comparison_table",
+    "title": "Comparaison des Capacités IA",
+    "metrics": [
+      {
+        "name": "Modèle IA",
+        "constructo_ai": "Claude Opus 4.5",
+        "sap": "SAP Joule",
+        "oracle": "Oracle AI",
+        "procore": "GPT-4 (Copilot)",
+        "sage": "Aucun",
+        "quickbooks": "Basique"
+      },
+      {
+        "name": "Profils Experts",
+        "constructo_ai": 61,
+        "sap": 5,
+        "oracle": 3,
+        "procore": 5,
+        "sage": 0,
+        "quickbooks": 0
+      },
+      {
+        "name": "Analyse Documents (formats)",
+        "constructo_ai": 27,
+        "procore": 15,
+        "sap": 10,
+        "oracle": 8,
+        "sage": 5,
+        "quickbooks": 3
+      },
+      {
+        "name": "Chat Contextuel",
+        "constructo_ai": true,
+        "procore": true,
+        "sap": false,
+        "oracle": false,
+        "sage": false,
+        "quickbooks": false
+      },
+      {
+        "name": "Génération Devis IA",
+        "constructo_ai": true,
+        "procore": false,
+        "sap": false,
+        "oracle": false,
+        "sage": false,
+        "quickbooks": false
+      },
+      {
+        "name": "CPA Virtuel",
+        "constructo_ai": true,
+        "sap": false,
+        "oracle": false,
+        "procore": false,
+        "sage": false,
+        "quickbooks": false
+      }
+    ]
+  },
+
+  "ai_maturity_levels": {
+    "chart_type": "scatter_plot",
+    "title": "Maturité IA vs Spécialisation",
+    "x_axis": "Spécialisation (Générique → Spécialisé)",
+    "y_axis": "Niveau Maturité IA (1-5)",
+    "levels": {
+      "1": "Basique",
+      "2": "Automatisé",
+      "3": "Assisté",
+      "4": "Prédictif",
+      "5": "Autonome"
+    },
+    "data": [
+      { "erp": "Constructo AI", "x": 95, "y": 4.2, "size": 61, "color": "#2E86AB" },
+      { "erp": "Procore", "x": 70, "y": 3.5, "size": 5, "color": "#A23B72" },
+      { "erp": "SAP", "x": 30, "y": 3.0, "size": 5, "color": "#C73E1D" },
+      { "erp": "Oracle", "x": 40, "y": 3.0, "size": 3, "color": "#F18F01" },
+      { "erp": "Sage", "x": 60, "y": 2.0, "size": 0, "color": "#3B1F2B" },
+      { "erp": "QuickBooks", "x": 20, "y": 1.5, "size": 0, "color": "#95C623" }
+    ]
+  },
+
+  "features_matrix": {
+    "chart_type": "heatmap",
+    "title": "Matrice des Fonctionnalités",
+    "legend": {
+      "2": "Complet/Natif",
+      "1": "Partiel/Config",
+      "0": "Absent"
+    },
+    "categories": {
+      "comptabilite": {
+        "name": "Comptabilité",
+        "features": [
+          { "feature": "Plan Comptable Construction", "constructo_ai": 2, "sap": 2, "oracle": 2, "sage": 2, "quickbooks": 1, "procore": 0 },
+          { "feature": "Double Entrée", "constructo_ai": 2, "sap": 2, "oracle": 2, "sage": 2, "quickbooks": 1, "procore": 0 },
+          { "feature": "États Financiers", "constructo_ai": 2, "sap": 2, "oracle": 2, "sage": 2, "quickbooks": 2, "procore": 0 },
+          { "feature": "Job Costing 61 postes", "constructo_ai": 2, "sap": 1, "oracle": 1, "sage": 2, "quickbooks": 1, "procore": 1 },
+          { "feature": "TPS/TVQ Québec", "constructo_ai": 2, "sap": 1, "oracle": 1, "sage": 1, "quickbooks": 2, "procore": 0 },
+          { "feature": "IA Comptable", "constructo_ai": 2, "sap": 1, "oracle": 1, "sage": 0, "quickbooks": 0, "procore": 0 }
+        ]
+      },
+      "paie": {
+        "name": "Paie Québec",
+        "features": [
+          { "feature": "Calculs Québec 2025", "constructo_ai": 2, "sap": 1, "sage": 1, "quickbooks": 1, "oracle": 1, "procore": 0 },
+          { "feature": "RRQ, RQAP, AE", "constructo_ai": 2, "sap": 1, "sage": 1, "quickbooks": 1, "oracle": 1, "procore": 0 },
+          { "feature": "FSS, CNESST, CNT, CCQ", "constructo_ai": 2, "sap": 1, "sage": 1, "quickbooks": 0, "oracle": 1, "procore": 0 },
+          { "feature": "T4, Relevé 1", "constructo_ai": 2, "sap": 2, "sage": 2, "quickbooks": 2, "oracle": 2, "procore": 0 },
+          { "feature": "Talons PDF", "constructo_ai": 2, "sap": 2, "sage": 2, "quickbooks": 2, "oracle": 2, "procore": 0 }
+        ]
+      },
+      "projets": {
+        "name": "Gestion Projets",
+        "features": [
+          { "feature": "Gantt Interactif", "constructo_ai": 2, "procore": 2, "oracle": 2, "sap": 2, "sage": 1, "quickbooks": 0 },
+          { "feature": "Kanban", "constructo_ai": 2, "procore": 2, "oracle": 1, "sap": 1, "sage": 0, "quickbooks": 0 },
+          { "feature": "Time Tracking 61 postes", "constructo_ai": 2, "procore": 2, "oracle": 2, "sap": 1, "sage": 1, "quickbooks": 1 },
+          { "feature": "Bons de Travail", "constructo_ai": 2, "procore": 2, "oracle": 2, "sap": 1, "sage": 1, "quickbooks": 0 },
+          { "feature": "IA Planning", "constructo_ai": 2, "procore": 2, "oracle": 1, "sap": 1, "sage": 0, "quickbooks": 0 },
+          { "feature": "Météo Chantier", "constructo_ai": 2, "procore": 1, "oracle": 0, "sap": 0, "sage": 0, "quickbooks": 0 }
+        ]
+      },
+      "conformite": {
+        "name": "Conformité Québec",
+        "features": [
+          { "feature": "RBQ (Régie Bâtiment)", "constructo_ai": 2, "sage": 1, "quickbooks": 1, "sap": 0, "oracle": 0, "procore": 0 },
+          { "feature": "CCQ (Commission Construction)", "constructo_ai": 2, "sage": 0, "quickbooks": 0, "sap": 0, "oracle": 0, "procore": 0 },
+          { "feature": "Loi 16 (Fonds Prévoyance)", "constructo_ai": 2, "sage": 0, "quickbooks": 0, "sap": 0, "oracle": 0, "procore": 0 },
+          { "feature": "Normes CSA/BNQ", "constructo_ai": 2, "sage": 1, "quickbooks": 0, "sap": 1, "oracle": 1, "procore": 0 },
+          { "feature": "50+ Programmes Subventions", "constructo_ai": 2, "sage": 0, "quickbooks": 0, "sap": 0, "oracle": 0, "procore": 0 },
+          { "feature": "Cartes CCQ Employés", "constructo_ai": 2, "sage": 0, "quickbooks": 0, "sap": 0, "oracle": 0, "procore": 0 },
+          { "feature": "Licences RBQ", "constructo_ai": 2, "sage": 0, "quickbooks": 0, "sap": 0, "oracle": 0, "procore": 0 }
+        ]
+      }
+    }
+  },
+
+  "constructo_ai_metrics": {
+    "chart_type": "stats_cards",
+    "title": "Métriques Constructo AI",
+    "data": [
+      { "metric": "Fichiers Python", "value": 184, "unit": "fichiers", "icon": "code" },
+      { "metric": "Lignes de Code", "value": 138000, "unit": "lignes", "icon": "file-code" },
+      { "metric": "Tables PostgreSQL", "value": 198, "unit": "tables", "icon": "database" },
+      { "metric": "Modules Fonctionnels", "value": 35, "unit": "modules", "icon": "puzzle" },
+      { "metric": "Profils IA Experts", "value": 61, "unit": "experts", "icon": "brain" },
+      { "metric": "Postes Construction", "value": 61, "unit": "postes", "icon": "hard-hat" },
+      { "metric": "Programmes Subventions", "value": 50, "unit": "programmes", "icon": "dollar" },
+      { "metric": "Formats Documents IA", "value": 27, "unit": "formats", "icon": "file" },
+      { "metric": "Comptes Comptables", "value": 70, "unit": "comptes", "icon": "calculator" },
+      { "metric": "Lignes Doc Experts", "value": 26311, "unit": "lignes", "icon": "book" }
+    ]
+  },
+
+  "modules_breakdown": {
+    "chart_type": "treemap",
+    "title": "Répartition des Modules par Lignes de Code",
+    "data": [
+      { "module": "Devis & Estimations", "lines": 11298, "category": "CRM & Ventes" },
+      { "module": "Assistant IA", "lines": 9886, "category": "IA" },
+      { "module": "Comptabilité Générale", "lines": 9300, "category": "Finance" },
+      { "module": "Fournisseurs", "lines": 5611, "category": "Achats" },
+      { "module": "Production Management", "lines": 4852, "category": "Projets" },
+      { "module": "CRM", "lines": 4609, "category": "CRM & Ventes" },
+      { "module": "Gantt Interactif", "lines": 3699, "category": "Projets" },
+      { "module": "Time Tracker", "lines": 3646, "category": "RH" },
+      { "module": "Employés", "lines": 3347, "category": "RH" },
+      { "module": "Produits", "lines": 3121, "category": "Inventaire" },
+      { "module": "Grand Livre", "lines": 3015, "category": "Finance" },
+      { "module": "Subventions", "lines": 2797, "category": "Québec" },
+      { "module": "Fonds Prévoyance", "lines": 2797, "category": "Québec" },
+      { "module": "Inventaire", "lines": 2755, "category": "Inventaire" },
+      { "module": "États Financiers", "lines": 2421, "category": "Finance" },
+      { "module": "Conformité RBQ/CCQ", "lines": 2321, "category": "Québec" },
+      { "module": "Paie Québec", "lines": 2284, "category": "RH" },
+      { "module": "Bons de Commande", "lines": 2237, "category": "Achats" },
+      { "module": "Météo Chantier", "lines": 2000, "category": "Projets" },
+      { "module": "Calendrier", "lines": 1741, "category": "Projets" },
+      { "module": "Note AI", "lines": 1676, "category": "IA" },
+      { "module": "Kanban", "lines": 1618, "category": "Projets" },
+      { "module": "Portail B2B", "lines": 1594, "category": "CRM & Ventes" }
+    ]
+  },
+
+  "pricing_comparison": {
+    "chart_type": "bubble_chart",
+    "title": "Coût vs Fonctionnalités vs Complexité",
+    "x_axis": "Coût Annuel Estimé (K$)",
+    "y_axis": "Score Fonctionnalités (%)",
+    "bubble_size": "Temps Implémentation (mois)",
+    "data": [
+      { "erp": "Constructo AI", "cost": 15, "features": 86, "implementation_months": 1, "color": "#2E86AB" },
+      { "erp": "QuickBooks", "cost": 5, "features": 70, "implementation_months": 0.5, "color": "#95C623" },
+      { "erp": "Sage 100", "cost": 25, "features": 70, "implementation_months": 3, "color": "#3B1F2B" },
+      { "erp": "Procore", "cost": 50, "features": 78, "implementation_months": 2, "color": "#A23B72" },
+      { "erp": "Oracle", "cost": 200, "features": 72, "implementation_months": 12, "color": "#F18F01" },
+      { "erp": "SAP", "cost": 500, "features": 70, "implementation_months": 18, "color": "#C73E1D" }
+    ]
+  },
+
+  "roi_analysis": {
+    "chart_type": "line_chart",
+    "title": "Retour sur Investissement Estimé (36 mois)",
+    "x_axis": "Mois",
+    "y_axis": "ROI Cumulé (%)",
+    "data": {
+      "constructo_ai": [
+        { "month": 0, "roi": -100 },
+        { "month": 3, "roi": -50 },
+        { "month": 6, "roi": 0 },
+        { "month": 12, "roi": 80 },
+        { "month": 18, "roi": 150 },
+        { "month": 24, "roi": 220 },
+        { "month": 36, "roi": 350 }
+      ],
+      "sap": [
+        { "month": 0, "roi": -100 },
+        { "month": 6, "roi": -100 },
+        { "month": 12, "roi": -80 },
+        { "month": 18, "roi": -50 },
+        { "month": 24, "roi": 0 },
+        { "month": 36, "roi": 80 }
+      ],
+      "procore": [
+        { "month": 0, "roi": -100 },
+        { "month": 3, "roi": -60 },
+        { "month": 6, "roi": -20 },
+        { "month": 12, "roi": 40 },
+        { "month": 18, "roi": 90 },
+        { "month": 24, "roi": 140 },
+        { "month": 36, "roi": 220 }
+      ]
+    }
+  },
+
+  "swot_analysis": {
+    "chart_type": "quadrant",
+    "title": "Analyse SWOT - Constructo AI",
+    "data": {
+      "strengths": [
+        { "item": "IA native Claude Opus 4.5", "impact": 95 },
+        { "item": "61 profils experts construction", "impact": 90 },
+        { "item": "100% spécialisé Québec", "impact": 88 },
+        { "item": "Comptabilité + Paie complètes", "impact": 85 },
+        { "item": "Multi-tenant SaaS moderne", "impact": 82 },
+        { "item": "50+ programmes subventions", "impact": 80 },
+        { "item": "Coût accessible PME", "impact": 78 }
+      ],
+      "weaknesses": [
+        { "item": "Pas d'app mobile native", "impact": 75 },
+        { "item": "Pas d'intégration BIM", "impact": 60 },
+        { "item": "Marque peu connue", "impact": 55 },
+        { "item": "Certifications sécurité manquantes", "impact": 70 },
+        { "item": "Documentation utilisateur limitée", "impact": 50 },
+        { "item": "Français uniquement", "impact": 45 }
+      ],
+      "opportunities": [
+        { "item": "Marché IA ERP croissance 26%/an", "impact": 90 },
+        { "item": "Demande forte conformité Loi 16", "impact": 85 },
+        { "item": "PME Québec mal servies", "impact": 88 },
+        { "item": "Expansion Canada/international", "impact": 75 },
+        { "item": "Partenariats intégrateurs", "impact": 70 },
+        { "item": "Module métrage/Takeoff unique", "impact": 65 }
+      ],
+      "threats": [
+        { "item": "Procore Copilot en rattrapage", "impact": 70 },
+        { "item": "SAP/Oracle investissent en IA", "impact": 65 },
+        { "item": "Nouveaux entrants IA-first", "impact": 60 },
+        { "item": "Dépendance Anthropic API", "impact": 55 },
+        { "item": "Évolution réglementaire", "impact": 50 },
+        { "item": "Concurrence open-source", "impact": 45 }
+      ]
+    }
+  },
+
+  "market_position": {
+    "chart_type": "quadrant_scatter",
+    "title": "Positionnement Marché ERP Construction 2025",
+    "x_axis": { "label": "Taille Marché Cible", "min": "PME", "max": "Grandes Entreprises" },
+    "y_axis": { "label": "Complexité & Coût", "min": "Basse", "max": "Haute" },
+    "data": [
+      { "erp": "SAP S/4HANA", "x": 90, "y": 95, "size": 40 },
+      { "erp": "Oracle", "x": 85, "y": 90, "size": 35 },
+      { "erp": "Procore", "x": 60, "y": 55, "size": 30 },
+      { "erp": "Constructo AI", "x": 35, "y": 40, "size": 25, "highlight": true },
+      { "erp": "Sage 100", "x": 40, "y": 50, "size": 20 },
+      { "erp": "QuickBooks", "x": 15, "y": 20, "size": 15 }
+    ]
+  },
+
+  "ai_experts_distribution": {
+    "chart_type": "pie_chart",
+    "title": "Répartition des 61 Profils Experts IA",
+    "data": [
+      { "category": "Métiers Spécialisés", "count": 25, "percentage": 41, "color": "#2E86AB" },
+      { "category": "Construction Générale", "count": 15, "percentage": 25, "color": "#A23B72" },
+      { "category": "Conformité & Réglementation", "count": 11, "percentage": 18, "color": "#F18F01" },
+      { "category": "Gestion & Finance", "count": 10, "percentage": 16, "color": "#95C623" }
+    ]
+  },
+
+  "construction_posts": {
+    "chart_type": "hierarchical",
+    "title": "61 Postes de Construction par Département",
+    "data": [
+      { "department": "TERRASSEMENT", "posts": 4, "hourly_rate_range": "$35-$45" },
+      { "department": "BÉTON", "posts": 5, "hourly_rate_range": "$40-$55" },
+      { "department": "CHARPENTE", "posts": 4, "hourly_rate_range": "$45-$60" },
+      { "department": "TOITURE", "posts": 3, "hourly_rate_range": "$40-$55" },
+      { "department": "ISOLATION", "posts": 3, "hourly_rate_range": "$35-$50" },
+      { "department": "PLOMBERIE", "posts": 4, "hourly_rate_range": "$45-$65" },
+      { "department": "ÉLECTRICITÉ", "posts": 4, "hourly_rate_range": "$45-$65" },
+      { "department": "CVC", "posts": 3, "hourly_rate_range": "$45-$60" },
+      { "department": "REVÊTEMENT", "posts": 4, "hourly_rate_range": "$35-$50" },
+      { "department": "MAÇONNERIE", "posts": 3, "hourly_rate_range": "$40-$55" },
+      { "department": "MENUISERIE", "posts": 4, "hourly_rate_range": "$40-$55" },
+      { "department": "GYPSE", "posts": 3, "hourly_rate_range": "$35-$50" },
+      { "department": "PEINTURE", "posts": 3, "hourly_rate_range": "$30-$45" },
+      { "department": "PLANCHER", "posts": 3, "hourly_rate_range": "$35-$50" },
+      { "department": "CÉRAMIQUE", "posts": 2, "hourly_rate_range": "$40-$55" },
+      { "department": "NETTOYAGE", "posts": 2, "hourly_rate_range": "$25-$35" },
+      { "department": "QUALITÉ", "posts": 2, "hourly_rate_range": "$45-$60" },
+      { "department": "PAVAGE", "posts": 2, "hourly_rate_range": "$35-$50" },
+      { "department": "PAYSAGE", "posts": 3, "hourly_rate_range": "$30-$45" }
+    ]
+  },
+
+  "quebec_subsidies": {
+    "chart_type": "category_bar",
+    "title": "50+ Programmes de Subventions Québec par Catégorie",
+    "data": [
+      { "category": "Efficacité Énergétique", "count": 12, "example": "RénoVert, Chauffez Vert" },
+      { "category": "Innovation & R&D", "count": 10, "example": "CDAE, RS&DE" },
+      { "category": "PME & Entrepreneurs", "count": 8, "example": "PACTE, Aide au démarrage" },
+      { "category": "Construction Durable", "count": 7, "example": "Novoclimat, LEED" },
+      { "category": "Formation & Main-d'oeuvre", "count": 6, "example": "CCQ, Emploi-Québec" },
+      { "category": "Régions & Municipalités", "count": 5, "example": "Fonds régionaux" },
+      { "category": "Export & International", "count": 4, "example": "Québec Export" }
+    ]
+  },
+
+  "technology_stack": {
+    "chart_type": "tech_radar",
+    "title": "Stack Technologique Constructo AI",
+    "layers": {
+      "frontend": {
+        "name": "Frontend",
+        "technologies": [
+          { "name": "Streamlit", "version": "1.51.0+", "maturity": "Adopt" },
+          { "name": "Plotly", "version": "5.17.0+", "maturity": "Adopt" },
+          { "name": "Pandas", "version": "2.0+", "maturity": "Adopt" }
+        ]
+      },
+      "backend": {
+        "name": "Backend",
+        "technologies": [
+          { "name": "FastAPI", "version": "0.104.0+", "maturity": "Adopt" },
+          { "name": "Python", "version": "3.11+", "maturity": "Adopt" },
+          { "name": "Uvicorn", "version": "0.24.0+", "maturity": "Adopt" }
+        ]
+      },
+      "database": {
+        "name": "Base de données",
+        "technologies": [
+          { "name": "PostgreSQL", "version": "15", "maturity": "Adopt" },
+          { "name": "SQLAlchemy", "version": "2.0+", "maturity": "Adopt" },
+          { "name": "Alembic", "version": "1.13.0+", "maturity": "Adopt" }
+        ]
+      },
+      "ai": {
+        "name": "Intelligence Artificielle",
+        "technologies": [
+          { "name": "Claude Opus 4.5", "version": "20251101", "maturity": "Adopt" },
+          { "name": "Anthropic API", "version": "0.18.0+", "maturity": "Adopt" }
+        ]
+      },
+      "infrastructure": {
+        "name": "Infrastructure",
+        "technologies": [
+          { "name": "Render.com", "version": "Cloud", "maturity": "Adopt" },
+          { "name": "Sentry", "version": "1.40.0+", "maturity": "Adopt" },
+          { "name": "Stripe", "version": "7.0.0+", "maturity": "Adopt" }
+        ]
+      }
+    }
+  },
+
+  "competitive_advantages": {
+    "chart_type": "waterfall",
+    "title": "Avantages Compétitifs - Impact sur Productivité",
+    "baseline": 100,
+    "data": [
+      { "advantage": "IA Native (61 experts)", "impact": 40, "cumulative": 140 },
+      { "advantage": "Conformité Québec Automatisée", "impact": 25, "cumulative": 165 },
+      { "advantage": "Comptabilité Intégrée", "impact": 20, "cumulative": 185 },
+      { "advantage": "Paie Native Québec", "impact": 15, "cumulative": 200 },
+      { "advantage": "Multi-Tenant Cloud", "impact": 10, "cumulative": 210 },
+      { "advantage": "API REST Complète", "impact": 8, "cumulative": 218 }
+    ]
+  },
+
+  "improvement_roadmap": {
+    "chart_type": "gantt",
+    "title": "Feuille de Route Améliorations",
+    "phases": {
+      "court_terme": {
+        "name": "Court Terme (0-6 mois)",
+        "items": [
+          { "task": "App Mobile PWA", "priority": 1, "impact": "Haute" },
+          { "task": "Certification SOC 2", "priority": 2, "impact": "Haute" },
+          { "task": "Marketplace Intégrations", "priority": 3, "impact": "Haute" },
+          { "task": "Documentation Utilisateur", "priority": 4, "impact": "Moyenne" },
+          { "task": "Mode Offline", "priority": 5, "impact": "Moyenne" }
+        ]
+      },
+      "moyen_terme": {
+        "name": "Moyen Terme (6-18 mois)",
+        "items": [
+          { "task": "Intégration BIM (IFC/BCF)", "priority": 1, "impact": "Haute" },
+          { "task": "Agents IA Autonomes", "priority": 2, "impact": "Haute" },
+          { "task": "Support Anglais", "priority": 3, "impact": "Moyenne" },
+          { "task": "Earned Value Management", "priority": 4, "impact": "Moyenne" },
+          { "task": "API Publique v2", "priority": 5, "impact": "Moyenne" }
+        ]
+      },
+      "long_terme": {
+        "name": "Long Terme (18-36 mois)",
+        "items": [
+          { "task": "Expansion Canada", "priority": 1, "impact": "Haute" },
+          { "task": "Certification ISO 27001", "priority": 2, "impact": "Haute" },
+          { "task": "Plateforme IoT Chantier", "priority": 3, "impact": "Moyenne" },
+          { "task": "Marketplace Applications", "priority": 4, "impact": "Haute" },
+          { "task": "IA Générative Avancée", "priority": 5, "impact": "Haute" }
+        ]
+      }
+    }
+  },
+
+  "market_growth": {
+    "chart_type": "area_chart",
+    "title": "Croissance Marché IA ERP (2023-2033)",
+    "source": "Industry Reports 2025",
+    "data": [
+      { "year": 2023, "market_size_billions": 4.5 },
+      { "year": 2024, "market_size_billions": 5.7 },
+      { "year": 2025, "market_size_billions": 7.2 },
+      { "year": 2026, "market_size_billions": 9.1 },
+      { "year": 2027, "market_size_billions": 11.5 },
+      { "year": 2028, "market_size_billions": 14.5 },
+      { "year": 2029, "market_size_billions": 18.3 },
+      { "year": 2030, "market_size_billions": 23.1 },
+      { "year": 2031, "market_size_billions": 29.2 },
+      { "year": 2032, "market_size_billions": 36.9 },
+      { "year": 2033, "market_size_billions": 46.5 }
+    ],
+    "cagr": 26.3
+  }
+}
