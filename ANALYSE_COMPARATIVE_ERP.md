@@ -47,12 +47,13 @@ POSITIONNEMENT MARCHÉ ERP CONSTRUCTION 2025
                       |
     SAP S/4HANA   Oracle ●
            ●        ●
-Complexité          |
+Complexité          |                    ● Jonas Enterprise
 & Coût              |    ● Procore
-                    |
-        Sage ●------|--------● Constructo AI
-                    |    (IA Native + Québec)
-    QuickBooks ●    |
+                    |           ● Buildertrend
+        Sage ●------|-----------● Constructo AI
+              ● Maestro    (IA Native + Québec)
+    QuickBooks ●    |  ● CTRL
+          ● Elper   |      ● Odoo
                     |
                    Basse_____________________________
                          PME         Grandes Entreprises
@@ -67,8 +68,9 @@ Complexité          |
 
 1. **Analyse du Code Source** - 184 fichiers Python, 138K+ lignes
 2. **Analyse de l'Architecture** - Base de données PostgreSQL, 198+ tables
-3. **Benchmark Marché 2025** - SAP, Oracle, Procore, Sage, QuickBooks
-4. **Tendances IA ERP 2025** - Intégrations Claude, GPT, agents autonomes
+3. **Benchmark Marché International 2025** - SAP, Oracle, Procore, Sage, QuickBooks
+4. **Benchmark Marché Québec/Canada 2025** - Maestro, Jonas, CTRL, Elper, Buildertrend, Odoo, Civalgo
+5. **Tendances IA ERP 2025** - Intégrations Claude, GPT, agents autonomes
 
 ### Critères d'Évaluation
 
@@ -291,6 +293,154 @@ Complexité          |
 
 ---
 
+### 4.3 Comparaison avec les ERP Québec/Canada
+
+#### Maestro*ERP (Québec - Varennes)
+
+| Aspect | Maestro | Constructo AI |
+|--------|---------|---------------|
+| **Fondé** | 1989 (35+ ans) | Nouvelle génération |
+| **Base utilisateurs** | 10,000+ utilisateurs | En croissance |
+| **Spécialisation** | Entrepreneurs généraux | PME construction Québec |
+| **Paie CCQ** | ✅ Intégrée | ✅ Intégrée |
+| **IA Native** | ❌ Non | ✅ Claude Opus 4.5 (61 experts) |
+| **Interface** | Client-serveur / Web | Streamlit moderne |
+| **Cloud** | Maestro Cloud | Multi-tenant SaaS natif |
+| **Subventions Québec** | ❌ | ✅ 50+ programmes |
+| **Loi 16** | ❌ | ✅ Module complet |
+| **Appartenance** | JDM Technology Group | Indépendant |
+
+**Verdict:** Maestro est établi depuis 35 ans mais sans IA. Constructo AI offre l'innovation IA avec la même conformité CCQ.
+
+---
+
+#### Jonas Construction Software (Canada/USA)
+
+| Aspect | Jonas Enterprise | Constructo AI |
+|--------|------------------|---------------|
+| **Marché Cible** | Mécanique, Électrique, HVAC | PME construction générale Québec |
+| **Modules** | 40+ modules | 35+ modules |
+| **Comptabilité** | ✅ Complète | ✅ Complète |
+| **Job Costing** | ✅ | ✅ 61 postes spécialisés |
+| **IA Native** | ❌ Non | ✅ Claude Opus 4.5 |
+| **App Mobile** | ⚠️ Limitée | ⚠️ PWA responsive |
+| **Paie Québec** | ⚠️ Configuration | ✅ Native 2025 |
+| **Subventions Québec** | ❌ | ✅ 50+ programmes |
+| **Implémentation** | $20,000+ | Plus accessible |
+| **Coût mensuel** | $200+/utilisateur | Compétitif PME |
+
+**Verdict:** Jonas excelle pour contractors mécaniques/électriques. Constructo AI est supérieur pour construction générale avec IA et conformité Québec native.
+
+---
+
+#### CTRL (Québec)
+
+| Aspect | CTRL | Constructo AI |
+|--------|------|---------------|
+| **Spécialisation** | Construction, Services pro, Santé | Construction Québec |
+| **Architecture** | ERP traditionnel | SaaS multi-tenant |
+| **Multi-Projets** | ✅ | ✅ |
+| **Multi-Devises** | ✅ | ⚠️ CAD/USD |
+| **IA Native** | ❌ | ✅ Claude Opus 4.5 |
+| **Cible** | Ingénierie, Architecture | PME construction |
+| **Conformité Québec** | ✅ | ✅ Native |
+
+**Verdict:** CTRL convient aux firmes d'ingénierie/architecture. Constructo AI est plus adapté pour les entrepreneurs en construction.
+
+---
+
+#### Elper (Québec - 2016)
+
+| Aspect | Elper | Constructo AI |
+|--------|-------|---------------|
+| **Fondé** | 2016 (Hoptimize Pro) | Nouvelle génération |
+| **Prix** | $59/mois + $10/employé | Compétitif PME |
+| **Mobile** | ✅ iOS, Android, Web | ⚠️ PWA |
+| **Time Tracking GPS** | ✅ | ✅ |
+| **Devis** | ✅ | ✅ IA-assisté |
+| **Comptabilité** | ⚠️ Export vers QuickBooks/Sage | ✅ Native complète |
+| **Paie** | ❌ (via export) | ✅ Native Québec 2025 |
+| **IA Native** | ❌ | ✅ Claude Opus 4.5 |
+| **Job Costing** | ⚠️ Basique | ✅ 61 postes |
+
+**Verdict:** Elper est abordable pour le time tracking. Constructo AI offre une solution complète (comptabilité + paie + IA) intégrée.
+
+---
+
+#### Buildertrend (USA - Cloud)
+
+| Aspect | Buildertrend | Constructo AI |
+|--------|--------------|---------------|
+| **Utilisateurs** | 1M+ dans 100+ pays | Marché Québec |
+| **Prix** | $499-$1,099/mois | Compétitif PME |
+| **Spécialisation** | Résidentiel, Rénovation | Construction générale Québec |
+| **App Mobile** | ✅ Excellente | ⚠️ PWA |
+| **CRM** | ✅ Intégré | ✅ Intégré |
+| **IA Native** | ⚠️ Limitée | ✅ Claude Opus 4.5 |
+| **Comptabilité** | ⚠️ Via Xero/QuickBooks | ✅ Native complète |
+| **Paie Québec** | ❌ | ✅ Native 2025 |
+| **Conformité RBQ/CCQ** | ❌ | ✅ Native |
+| **Subventions Québec** | ❌ | ✅ 50+ programmes |
+
+**Verdict:** Buildertrend est leader mondial pour le résidentiel. Constructo AI est supérieur pour le marché québécois avec conformité locale et IA avancée.
+
+---
+
+#### Odoo Construction (Open Source)
+
+| Aspect | Odoo Construction | Constructo AI |
+|--------|-------------------|---------------|
+| **Type** | Open source + modules | SaaS propriétaire |
+| **Prix** | Gratuit + $24-36/utilisateur | Compétitif PME |
+| **Modules** | Modulaire (100+) | 35+ intégrés |
+| **IA Native** | ⚠️ Via plugins | ✅ Claude Opus 4.5 |
+| **Personnalisation** | ✅ Très flexible | ⚠️ Configurable |
+| **BOQ (Bill of Quantities)** | ✅ | ✅ |
+| **Subcontractors** | ✅ | ✅ |
+| **Paie Québec** | ⚠️ Localisation requise | ✅ Native 2025 |
+| **Spécialisation Québec** | ❌ Générique | ✅ 100% |
+| **Support Local** | Via partenaires | Direct |
+
+**Verdict:** Odoo est flexible et économique mais générique. Constructo AI offre une solution clé-en-main spécialisée Québec sans configuration.
+
+---
+
+#### Civalgo (Montréal - Génie Civil)
+
+| Aspect | Civalgo | Constructo AI |
+|--------|---------|---------------|
+| **Fondé** | 2017, Montréal | Nouvelle génération |
+| **Spécialisation** | Génie civil, Infrastructure | Construction générale |
+| **Clients** | 200+ (génie civil) | PME construction |
+| **Gain productivité** | +40% rentabilité clients | IA +40% productivité |
+| **Terrain/Bureau** | ✅ Lien temps réel | ✅ Multi-plateforme |
+| **IA Native** | ⚠️ | ✅ Claude Opus 4.5 |
+| **Comptabilité** | ⚠️ Limité | ✅ Complète |
+| **Paie Québec** | ⚠️ | ✅ Native 2025 |
+
+**Verdict:** Civalgo excelle pour le génie civil. Constructo AI est plus adapté pour la construction bâtiment avec comptabilité et IA intégrées.
+
+---
+
+### 4.4 Tableau Récapitulatif Complet (12 ERP)
+
+| ERP | Score | IA | Québec | Comptabilité | Paie QC | Prix PME |
+|-----|-------|----|----|--------------|---------|----------|
+| **Constructo AI** | **86%** | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ | ★★★★★ |
+| Procore | 78% | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★☆☆☆☆ | ★★★☆☆ |
+| Jonas | 75% | ★☆☆☆☆ | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★☆☆ |
+| Oracle | 72% | ★★★☆☆ | ★★☆☆☆ | ★★★★★ | ★★☆☆☆ | ★☆☆☆☆ |
+| Maestro | 72% | ★☆☆☆☆ | ★★★★★ | ★★★★☆ | ★★★★★ | ★★★☆☆ |
+| SAP | 70% | ★★★☆☆ | ★★☆☆☆ | ★★★★★ | ★★☆☆☆ | ★☆☆☆☆ |
+| Buildertrend | 70% | ★★☆☆☆ | ★☆☆☆☆ | ★★☆☆☆ | ★☆☆☆☆ | ★★★☆☆ |
+| CTRL | 68% | ★☆☆☆☆ | ★★★★☆ | ★★★★☆ | ★★★☆☆ | ★★★☆☆ |
+| Odoo | 65% | ★★☆☆☆ | ★★☆☆☆ | ★★★★☆ | ★★☆☆☆ | ★★★★★ |
+| Sage 100 | 62% | ★☆☆☆☆ | ★★★☆☆ | ★★★★★ | ★★★☆☆ | ★★★★☆ |
+| Elper | 58% | ★☆☆☆☆ | ★★★★☆ | ★★☆☆☆ | ★★☆☆☆ | ★★★★★ |
+| QuickBooks | 55% | ★★☆☆☆ | ★★★☆☆ | ★★★★☆ | ★★★☆☆ | ★★★★★ |
+
+---
+
 ## 5. Analyse par Domaine Fonctionnel
 
 ### 5.1 Comptabilité
@@ -419,13 +569,14 @@ MATURITÉ IA ERP CONSTRUCTION 2025
 
 Niveau 5 (Autonome)     |
                         |
-Niveau 4 (Prédictif)    |     ● Constructo AI
-                        |         (61 experts)
+Niveau 4 (Prédictif)    |              ● Constructo AI
+                        |                  (61 experts)
 Niveau 3 (Assisté)      | ● SAP ● Oracle
                         | ● Procore
-Niveau 2 (Automatisé)   | ● Sage
-                        |
-Niveau 1 (Basique)      | ● QuickBooks
+Niveau 2 (Automatisé)   | ● Buildertrend ● Odoo
+                        | ● Sage
+Niveau 1 (Basique)      | ● Jonas ● Maestro ● CTRL
+                        | ● QuickBooks ● Elper
                         |____________________________
                           Générique    Spécialisé
                               Contexte IA
@@ -435,7 +586,9 @@ Niveau 1 (Basique)      | ● QuickBooks
 - **Constructo AI** atteint le niveau 4 avec ses 61 profils experts et capacités prédictives
 - **Procore Copilot** (lancé 2024) est niveau 3, en rattrapage
 - **SAP/Oracle** ont des capacités IA mais génériques
-- **Sage/QuickBooks** sont en retard significatif
+- **Buildertrend/Odoo** niveau 2 avec automatisation basique
+- **Jonas/Maestro/CTRL** - ERP établis sans IA native
+- **Elper/QuickBooks** - Outils simples, IA minimale
 
 ---
 
@@ -554,16 +707,22 @@ Niveau 1 (Basique)      | ● QuickBooks
 
 **Constructo AI** se positionne comme le **leader de niche pour les PME construction au Québec**, avec des avantages concurrentiels significatifs:
 
-#### Score Global par Rapport aux Concurrents
+#### Score Global par Rapport aux Concurrents (12 ERP analysés)
 
 | ERP | Score Global | Meilleur Pour |
 |-----|--------------|---------------|
-| **Constructo AI** | **86%** | PME Construction Québec |
-| Procore | 78% | Collaboration terrain |
+| **Constructo AI** | **86%** | PME Construction Québec, IA avancée |
+| Procore | 78% | Collaboration terrain, grands projets |
+| Jonas | 75% | Contractors mécaniques/électriques |
 | Oracle | 72% | Mégaprojets infrastructure |
+| Maestro | 72% | Entrepreneurs généraux établis Québec |
 | SAP | 70% | Multinationales |
-| Sage 100 | 70% | PME établies conservatrices |
-| QuickBooks | 70% | Très petites entreprises |
+| Buildertrend | 70% | Résidentiel, rénovation |
+| CTRL | 68% | Ingénierie, architecture |
+| Odoo | 65% | PME budget limité, flexibilité |
+| Sage 100 | 62% | PME établies conservatrices |
+| Elper | 58% | Time tracking simple, petits entrepreneurs |
+| QuickBooks | 55% | Très petites entreprises |
 
 ### Avantages Décisifs
 
@@ -596,13 +755,24 @@ Niveau 1 (Basique)      | ● QuickBooks
 - Base de données PostgreSQL (198+ tables)
 - Documentation API (46K+ lignes)
 
-#### Benchmark Marché
+#### Benchmark Marché International
 - [Knack - Best ERP Software for Construction Industry 2025](https://www.knack.com/blog/erp-software-for-construction-industry/)
 - [MSDynamicsWorld - Top 11 Construction ERP Software 2025](https://msdynamicsworld.com/blog-post/top-11-construction-erp-software-2025-complete-guide-us-contractors)
 - [Procore Features & Pricing](https://www.erpfocus.com/procore.html)
 - [Sage 100 Contractor vs QuickBooks](https://fitsmallbusiness.com/sage-100-contractor-vs-quickbooks/)
 - [AI in ERP Systems 2025](https://appinventiv.com/blog/ai-in-erp-systems/)
 - [Claude Enterprise Adoption](https://www.anthropic.com/news/driving-ai-transformation-with-claude)
+- [Buildertrend Pricing](https://buildertrend.com/pricing/)
+- [Odoo Construction Industry](https://www.odoo.com/industries/construction)
+
+#### Benchmark Marché Québec/Canada
+- [Maestro Technologies](https://maestro.ca/en/) - ERP Varennes, QC
+- [Jonas Construction Software](https://www.jonasconstruction.com/) - ERP North America
+- [CTRL ERP](https://ctrl.com/) - Solution ERP professionnelle Québec
+- [Elper](https://elper.pro/) - Logiciel entrepreneur construction Québec
+- [Civalgo](https://www.civalgo.com/en) - Génie civil Montréal
+- [ACCEO ICC Construction](https://www.icc.qc.ca/en/)
+- [Gestisoft - Top 10 ERP Québec](https://www.gestisoft.com/fr/blogue/logiciel-erp-quebec)
 
 ### B. Glossaire
 

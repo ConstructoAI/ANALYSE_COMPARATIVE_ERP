@@ -13,23 +13,8 @@
       "category": "Spécialisé Construction Québec",
       "target_market": "PME Construction Québec",
       "pricing_tier": "Accessible PME",
-      "year_founded": 2024
-    },
-    {
-      "id": "sap",
-      "name": "SAP S/4HANA",
-      "category": "ERP Enterprise",
-      "target_market": "Grandes Entreprises Mondiales",
-      "pricing_tier": "$100K-$1M+/an",
-      "year_founded": 1972
-    },
-    {
-      "id": "oracle",
-      "name": "Oracle Construction",
-      "category": "ERP Enterprise Construction",
-      "target_market": "Mégaprojets Infrastructure",
-      "pricing_tier": "$100K-$500K+/an",
-      "year_founded": 1977
+      "year_founded": 2024,
+      "headquarters": "Québec, Canada"
     },
     {
       "id": "procore",
@@ -37,7 +22,71 @@
       "category": "Construction Management",
       "target_market": "Contractors Toutes Tailles",
       "pricing_tier": "Élevé pour PME",
-      "year_founded": 2002
+      "year_founded": 2002,
+      "headquarters": "Californie, USA"
+    },
+    {
+      "id": "jonas",
+      "name": "Jonas Construction",
+      "category": "ERP Construction Spécialisé",
+      "target_market": "Contractors Mécanique/Électrique/HVAC",
+      "pricing_tier": "$200+/utilisateur/mois",
+      "year_founded": 1990,
+      "headquarters": "Toronto, Canada"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle Construction",
+      "category": "ERP Enterprise Construction",
+      "target_market": "Mégaprojets Infrastructure",
+      "pricing_tier": "$100K-$500K+/an",
+      "year_founded": 1977,
+      "headquarters": "Texas, USA"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro*ERP",
+      "category": "ERP Construction Québec",
+      "target_market": "Entrepreneurs Généraux Québec",
+      "pricing_tier": "Moyen-Élevé",
+      "year_founded": 1989,
+      "headquarters": "Varennes, Québec"
+    },
+    {
+      "id": "sap",
+      "name": "SAP S/4HANA",
+      "category": "ERP Enterprise",
+      "target_market": "Grandes Entreprises Mondiales",
+      "pricing_tier": "$100K-$1M+/an",
+      "year_founded": 1972,
+      "headquarters": "Allemagne"
+    },
+    {
+      "id": "buildertrend",
+      "name": "Buildertrend",
+      "category": "Construction Management Cloud",
+      "target_market": "Résidentiel, Rénovation",
+      "pricing_tier": "$499-$1,099/mois",
+      "year_founded": 2006,
+      "headquarters": "Nebraska, USA"
+    },
+    {
+      "id": "ctrl",
+      "name": "CTRL",
+      "category": "ERP Professionnel Québec",
+      "target_market": "Ingénierie, Architecture, Construction",
+      "pricing_tier": "Moyen",
+      "year_founded": 1990,
+      "headquarters": "Québec, Canada"
+    },
+    {
+      "id": "odoo",
+      "name": "Odoo Construction",
+      "category": "ERP Open Source",
+      "target_market": "PME Budget Limité",
+      "pricing_tier": "Gratuit + $24-36/utilisateur",
+      "year_founded": 2005,
+      "headquarters": "Belgique"
     },
     {
       "id": "sage",
@@ -45,29 +94,46 @@
       "category": "ERP PME Construction",
       "target_market": "PME Construction Établies",
       "pricing_tier": "Moyen",
-      "year_founded": 1981
+      "year_founded": 1981,
+      "headquarters": "UK"
+    },
+    {
+      "id": "elper",
+      "name": "Elper",
+      "category": "Gestion Entrepreneurs Québec",
+      "target_market": "Petits Entrepreneurs Construction",
+      "pricing_tier": "$59/mois + $10/employé",
+      "year_founded": 2016,
+      "headquarters": "Québec, Canada"
     },
     {
       "id": "quickbooks",
       "name": "QuickBooks Contractor",
       "category": "Comptabilité PME",
-      "target_market": "Petites Entreprises",
+      "target_market": "Très Petites Entreprises",
       "pricing_tier": "Économique",
-      "year_founded": 1983
+      "year_founded": 1983,
+      "headquarters": "Californie, USA"
     }
   ],
 
   "global_scores": {
     "chart_type": "bar_chart",
-    "title": "Score Global ERP Construction 2025",
+    "title": "Score Global ERP Construction 2025 (12 ERP analysés)",
     "max_score": 50,
     "data": [
       { "erp": "Constructo AI", "score": 43, "percentage": 86, "color": "#2E86AB" },
       { "erp": "Procore", "score": 39, "percentage": 78, "color": "#A23B72" },
-      { "erp": "Oracle Construction", "score": 36, "percentage": 72, "color": "#F18F01" },
-      { "erp": "SAP S/4HANA", "score": 35, "percentage": 70, "color": "#C73E1D" },
-      { "erp": "Sage 100 Contractor", "score": 35, "percentage": 70, "color": "#3B1F2B" },
-      { "erp": "QuickBooks", "score": 35, "percentage": 70, "color": "#95C623" }
+      { "erp": "Jonas", "score": 37.5, "percentage": 75, "color": "#5D5D5D" },
+      { "erp": "Oracle", "score": 36, "percentage": 72, "color": "#F18F01" },
+      { "erp": "Maestro", "score": 36, "percentage": 72, "color": "#1E88E5" },
+      { "erp": "SAP", "score": 35, "percentage": 70, "color": "#C73E1D" },
+      { "erp": "Buildertrend", "score": 35, "percentage": 70, "color": "#FF6B35" },
+      { "erp": "CTRL", "score": 34, "percentage": 68, "color": "#7B1FA2" },
+      { "erp": "Odoo", "score": 32.5, "percentage": 65, "color": "#714B67" },
+      { "erp": "Sage 100", "score": 31, "percentage": 62, "color": "#3B1F2B" },
+      { "erp": "Elper", "score": 29, "percentage": 58, "color": "#00897B" },
+      { "erp": "QuickBooks", "score": 27.5, "percentage": 55, "color": "#95C623" }
     ]
   },
 
@@ -88,10 +154,16 @@
     ],
     "data": {
       "constructo_ai": [5, 5, 5, 4, 5, 4, 5, 5, 4, 3],
-      "sap": [3, 3, 5, 2, 1, 5, 5, 2, 5, 4],
-      "oracle": [4, 3, 5, 2, 1, 5, 5, 2, 5, 4],
       "procore": [5, 4, 2, 5, 3, 4, 4, 2, 5, 5],
+      "jonas": [5, 1, 5, 3, 3, 4, 4, 3, 4, 2],
+      "oracle": [4, 3, 5, 2, 1, 5, 5, 2, 5, 4],
+      "maestro": [5, 1, 4, 3, 3, 3, 3, 5, 3, 2],
+      "sap": [3, 3, 5, 2, 1, 5, 5, 2, 5, 4],
+      "buildertrend": [4, 2, 2, 5, 3, 4, 4, 1, 4, 5],
+      "ctrl": [4, 1, 4, 3, 3, 3, 3, 4, 3, 2],
+      "odoo": [3, 2, 4, 4, 5, 4, 4, 2, 4, 3],
       "sage": [5, 1, 5, 3, 4, 3, 2, 3, 3, 3],
+      "elper": [4, 1, 2, 4, 5, 2, 3, 4, 2, 4],
       "quickbooks": [3, 2, 4, 5, 5, 2, 1, 3, 4, 5]
     }
   },
@@ -104,55 +176,85 @@
         "name": "Comptabilité",
         "scores": {
           "constructo_ai": 95,
+          "jonas": 92,
+          "sage": 92,
           "sap": 90,
           "oracle": 88,
-          "sage": 92,
+          "maestro": 85,
+          "ctrl": 82,
+          "odoo": 80,
           "quickbooks": 75,
-          "procore": 45
+          "buildertrend": 50,
+          "procore": 45,
+          "elper": 40
         }
       },
       {
         "name": "Paie Québec",
         "scores": {
           "constructo_ai": 98,
-          "sap": 60,
+          "maestro": 95,
+          "jonas": 70,
           "sage": 65,
+          "ctrl": 65,
+          "sap": 60,
+          "elper": 55,
           "quickbooks": 55,
+          "oracle": 50,
+          "odoo": 45,
           "procore": 30,
-          "oracle": 50
+          "buildertrend": 25
         }
       },
       {
         "name": "Gestion Projets",
         "scores": {
-          "constructo_ai": 88,
           "procore": 95,
           "oracle": 92,
+          "buildertrend": 90,
+          "constructo_ai": 88,
+          "jonas": 85,
           "sap": 80,
+          "maestro": 78,
+          "ctrl": 75,
+          "odoo": 72,
           "sage": 70,
+          "elper": 65,
           "quickbooks": 50
         }
       },
       {
         "name": "CRM & Ventes",
         "scores": {
-          "constructo_ai": 85,
-          "procore": 75,
           "sap": 88,
+          "constructo_ai": 85,
+          "buildertrend": 82,
           "oracle": 80,
+          "procore": 75,
+          "jonas": 70,
+          "odoo": 68,
+          "maestro": 65,
+          "ctrl": 60,
           "sage": 60,
-          "quickbooks": 55
+          "quickbooks": 55,
+          "elper": 50
         }
       },
       {
         "name": "Conformité Québec",
         "scores": {
           "constructo_ai": 100,
+          "maestro": 90,
+          "elper": 75,
+          "ctrl": 70,
+          "jonas": 55,
           "sage": 45,
           "quickbooks": 40,
           "sap": 30,
           "oracle": 25,
-          "procore": 20
+          "odoo": 25,
+          "procore": 20,
+          "buildertrend": 15
         }
       }
     ]
@@ -221,7 +323,7 @@
 
   "ai_maturity_levels": {
     "chart_type": "scatter_plot",
-    "title": "Maturité IA vs Spécialisation",
+    "title": "Maturité IA vs Spécialisation (12 ERP)",
     "x_axis": "Spécialisation (Générique → Spécialisé)",
     "y_axis": "Niveau Maturité IA (1-5)",
     "levels": {
@@ -236,7 +338,13 @@
       { "erp": "Procore", "x": 70, "y": 3.5, "size": 5, "color": "#A23B72" },
       { "erp": "SAP", "x": 30, "y": 3.0, "size": 5, "color": "#C73E1D" },
       { "erp": "Oracle", "x": 40, "y": 3.0, "size": 3, "color": "#F18F01" },
+      { "erp": "Buildertrend", "x": 65, "y": 2.2, "size": 2, "color": "#FF6B35" },
+      { "erp": "Odoo", "x": 35, "y": 2.0, "size": 2, "color": "#714B67" },
       { "erp": "Sage", "x": 60, "y": 2.0, "size": 0, "color": "#3B1F2B" },
+      { "erp": "Jonas", "x": 75, "y": 1.5, "size": 0, "color": "#5D5D5D" },
+      { "erp": "Maestro", "x": 85, "y": 1.5, "size": 0, "color": "#1E88E5" },
+      { "erp": "CTRL", "x": 70, "y": 1.3, "size": 0, "color": "#7B1FA2" },
+      { "erp": "Elper", "x": 80, "y": 1.2, "size": 0, "color": "#00897B" },
       { "erp": "QuickBooks", "x": 20, "y": 1.5, "size": 0, "color": "#95C623" }
     ]
   },
@@ -346,14 +454,20 @@
 
   "pricing_comparison": {
     "chart_type": "bubble_chart",
-    "title": "Coût vs Fonctionnalités vs Complexité",
+    "title": "Coût vs Fonctionnalités vs Complexité (12 ERP)",
     "x_axis": "Coût Annuel Estimé (K$)",
     "y_axis": "Score Fonctionnalités (%)",
     "bubble_size": "Temps Implémentation (mois)",
     "data": [
       { "erp": "Constructo AI", "cost": 15, "features": 86, "implementation_months": 1, "color": "#2E86AB" },
-      { "erp": "QuickBooks", "cost": 5, "features": 70, "implementation_months": 0.5, "color": "#95C623" },
-      { "erp": "Sage 100", "cost": 25, "features": 70, "implementation_months": 3, "color": "#3B1F2B" },
+      { "erp": "Elper", "cost": 3, "features": 58, "implementation_months": 0.25, "color": "#00897B" },
+      { "erp": "QuickBooks", "cost": 5, "features": 55, "implementation_months": 0.5, "color": "#95C623" },
+      { "erp": "Odoo", "cost": 8, "features": 65, "implementation_months": 2, "color": "#714B67" },
+      { "erp": "Sage 100", "cost": 25, "features": 62, "implementation_months": 3, "color": "#3B1F2B" },
+      { "erp": "CTRL", "cost": 30, "features": 68, "implementation_months": 2, "color": "#7B1FA2" },
+      { "erp": "Maestro", "cost": 35, "features": 72, "implementation_months": 3, "color": "#1E88E5" },
+      { "erp": "Buildertrend", "cost": 12, "features": 70, "implementation_months": 1, "color": "#FF6B35" },
+      { "erp": "Jonas", "cost": 40, "features": 75, "implementation_months": 4, "color": "#5D5D5D" },
       { "erp": "Procore", "cost": 50, "features": 78, "implementation_months": 2, "color": "#A23B72" },
       { "erp": "Oracle", "cost": 200, "features": 72, "implementation_months": 12, "color": "#F18F01" },
       { "erp": "SAP", "cost": 500, "features": 70, "implementation_months": 18, "color": "#C73E1D" }
@@ -437,15 +551,21 @@
 
   "market_position": {
     "chart_type": "quadrant_scatter",
-    "title": "Positionnement Marché ERP Construction 2025",
+    "title": "Positionnement Marché ERP Construction 2025 (12 ERP)",
     "x_axis": { "label": "Taille Marché Cible", "min": "PME", "max": "Grandes Entreprises" },
     "y_axis": { "label": "Complexité & Coût", "min": "Basse", "max": "Haute" },
     "data": [
       { "erp": "SAP S/4HANA", "x": 90, "y": 95, "size": 40 },
       { "erp": "Oracle", "x": 85, "y": 90, "size": 35 },
+      { "erp": "Jonas", "x": 65, "y": 65, "size": 25 },
       { "erp": "Procore", "x": 60, "y": 55, "size": 30 },
-      { "erp": "Constructo AI", "x": 35, "y": 40, "size": 25, "highlight": true },
+      { "erp": "Buildertrend", "x": 50, "y": 50, "size": 25 },
+      { "erp": "Maestro", "x": 45, "y": 55, "size": 22 },
+      { "erp": "CTRL", "x": 50, "y": 50, "size": 20 },
       { "erp": "Sage 100", "x": 40, "y": 50, "size": 20 },
+      { "erp": "Constructo AI", "x": 35, "y": 40, "size": 25, "highlight": true },
+      { "erp": "Odoo", "x": 40, "y": 35, "size": 18 },
+      { "erp": "Elper", "x": 25, "y": 25, "size": 15 },
       { "erp": "QuickBooks", "x": 15, "y": 20, "size": 15 }
     ]
   },
@@ -616,5 +736,99 @@
       { "year": 2033, "market_size_billions": 46.5 }
     ],
     "cagr": 26.3
+  },
+
+  "quebec_canada_erp": {
+    "chart_type": "comparison_table",
+    "title": "Comparaison ERP Québec/Canada",
+    "description": "Focus sur les solutions locales et nord-américaines",
+    "data": [
+      {
+        "erp": "Constructo AI",
+        "headquarters": "Québec",
+        "founded": 2024,
+        "users": "En croissance",
+        "paie_ccq": true,
+        "loi_16": true,
+        "subventions": true,
+        "ia_native": true,
+        "score": 86
+      },
+      {
+        "erp": "Maestro*ERP",
+        "headquarters": "Varennes, QC",
+        "founded": 1989,
+        "users": "10,000+",
+        "paie_ccq": true,
+        "loi_16": false,
+        "subventions": false,
+        "ia_native": false,
+        "score": 72
+      },
+      {
+        "erp": "Jonas Construction",
+        "headquarters": "Toronto, ON",
+        "founded": 1990,
+        "users": "5,000+",
+        "paie_ccq": false,
+        "loi_16": false,
+        "subventions": false,
+        "ia_native": false,
+        "score": 75
+      },
+      {
+        "erp": "CTRL",
+        "headquarters": "Québec",
+        "founded": 1990,
+        "users": "1,000+",
+        "paie_ccq": false,
+        "loi_16": false,
+        "subventions": false,
+        "ia_native": false,
+        "score": 68
+      },
+      {
+        "erp": "Elper",
+        "headquarters": "Québec",
+        "founded": 2016,
+        "users": "500+",
+        "paie_ccq": false,
+        "loi_16": false,
+        "subventions": false,
+        "ia_native": false,
+        "score": 58
+      }
+    ]
+  },
+
+  "erp_by_category": {
+    "chart_type": "grouped_bar",
+    "title": "Score par Catégorie d'ERP",
+    "categories": {
+      "international_enterprise": {
+        "name": "Enterprise International",
+        "erps": ["SAP", "Oracle"],
+        "avg_score": 71,
+        "avg_cost": "$350K+/an"
+      },
+      "north_american_specialty": {
+        "name": "Spécialisé Nord-Américain",
+        "erps": ["Procore", "Jonas", "Buildertrend"],
+        "avg_score": 74,
+        "avg_cost": "$30-60K/an"
+      },
+      "quebec_focused": {
+        "name": "Focus Québec",
+        "erps": ["Constructo AI", "Maestro", "CTRL", "Elper"],
+        "avg_score": 71,
+        "avg_cost": "$10-40K/an"
+      },
+      "generic_pme": {
+        "name": "PME Générique",
+        "erps": ["Sage", "QuickBooks", "Odoo"],
+        "avg_score": 61,
+        "avg_cost": "$5-25K/an"
+      }
+    }
   }
 }

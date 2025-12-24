@@ -1,32 +1,50 @@
 # Analyse Comparative ERP - Constructo AI
 
-> Étude comparative approfondie de Constructo AI face aux principaux ERP du marché de la construction
+> Étude comparative approfondie de Constructo AI face à **12 ERP** leaders du marché de la construction
 
 ## Aperçu
 
 Cette analyse compare **Constructo AI**, un ERP nouvelle génération propulsé par l'IA, avec les solutions leaders du marché :
+
+### ERP Internationaux
 - SAP S/4HANA Construction
 - Oracle Construction & Engineering
 - Procore
+- Buildertrend
 - Sage 100 Contractor
 - QuickBooks Contractor
+- Odoo Construction
 
-## Résultats Clés
+### ERP Québec/Canada
+- **Maestro*ERP** (Varennes, QC - fondé 1989)
+- **Jonas Construction** (Toronto, ON)
+- **CTRL** (Québec)
+- **Elper** (Québec - fondé 2016)
+- **Civalgo** (Montréal - génie civil)
+
+## Résultats Clés (12 ERP analysés)
 
 | Solution | Score Global | Points Forts |
 |----------|-------------|--------------|
-| **Constructo AI** | **86%** | IA intégrée, conformité Québec, innovation |
-| Procore | 78% | Interface, collaboration |
-| Oracle | 72% | Grands projets, robustesse |
-| SAP | 70% | Écosystème, intégration |
-| Sage | 62% | Comptabilité, PME |
-| QuickBooks | 55% | Simplicité, prix |
+| **Constructo AI** | **86%** | IA Claude Opus 4.5, conformité Québec, 61 experts |
+| Procore | 78% | Collaboration terrain, grands projets |
+| Jonas | 75% | Contractors mécanique/électrique |
+| Oracle | 72% | Mégaprojets infrastructure |
+| Maestro | 72% | 35 ans expérience Québec, paie CCQ |
+| SAP | 70% | Multinationales, écosystème |
+| Buildertrend | 70% | Résidentiel, rénovation |
+| CTRL | 68% | Ingénierie, architecture |
+| Odoo | 65% | Open source, flexible |
+| Sage 100 | 62% | Comptabilité PME |
+| Elper | 58% | Time tracking simple, abordable |
+| QuickBooks | 55% | Très petites entreprises |
 
 ## Contenu du Dépôt
 
 ### 📄 [ANALYSE_COMPARATIVE_ERP.md](./ANALYSE_COMPARATIVE_ERP.md)
-Rapport complet de 600+ lignes comprenant :
+Rapport complet de 800+ lignes comprenant :
 - Analyse de l'architecture technique
+- **Comparaison avec 12 ERP** (internationaux + Québec/Canada)
 - Comparaison des 35+ modules fonctionnels
 - Évaluation des capacités IA (61 profils experts)
 - Conformité réglementaire Québec (RBQ, CCQ, Loi 16)
@@ -35,16 +53,16 @@ Rapport complet de 600+ lignes comprenant :
 
 ### 📊 [erp_comparison_data.json](./erp_comparison_data.json)
 Données structurées pour visualisation :
-- 19 jeux de données
+- **21+ jeux de données** incluant ERP Québec/Canada
 - Scores par critères (fonctionnalités, UX, prix, support, IA)
 - Comparaisons par domaine métier
 - Données de croissance du marché
-- Métriques de satisfaction client
+- Focus spécial ERP québécois (Maestro, Jonas, CTRL, Elper)
 
 ### 📈 [index.html](./index.html)
 Tableau de bord interactif avec 15+ graphiques :
+- **Comparaison visuelle des 12 ERP**
 - Graphiques radar, barres, lignes
-- Comparaisons visuelles détaillées
 - Interface moderne (thème sombre)
 - Propulsé par Chart.js
 
