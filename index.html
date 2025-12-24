@@ -304,6 +304,41 @@
                     <canvas id="radarChart2"></canvas>
                 </div>
             </div>
+            <div class="chart-card">
+                <h3>Radar - Constructo AI vs Maestro (QC)</h3>
+                <div class="chart-container">
+                    <canvas id="radarChart3"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Radar - Constructo AI vs Jonas</h3>
+                <div class="chart-container">
+                    <canvas id="radarChart4"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Focus ERP Québec/Canada -->
+        <h2 class="section-title">Focus ERP Québec/Canada</h2>
+        <div class="charts-grid">
+            <div class="chart-card full-width">
+                <h3>Scores des ERP Québécois et Canadiens</h3>
+                <div class="chart-container">
+                    <canvas id="quebecErpChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Fonctionnalités Québec Natives</h3>
+                <div class="chart-container">
+                    <canvas id="quebecFeaturesChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Ancienneté vs Innovation</h3>
+                <div class="chart-container">
+                    <canvas id="ancienneteChart"></canvas>
+                </div>
+            </div>
         </div>
 
         <!-- Scores par Domaine -->
@@ -332,6 +367,18 @@
                     <canvas id="aiMaturityChart"></canvas>
                 </div>
             </div>
+            <div class="chart-card">
+                <h3>Répartition 61 Experts par Catégorie</h3>
+                <div class="chart-container">
+                    <canvas id="expertsCategoryChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Fonctionnalités IA par ERP</h3>
+                <div class="chart-container">
+                    <canvas id="aiFeaturesChart"></canvas>
+                </div>
+            </div>
         </div>
 
         <!-- Modules Treemap (Bar alternative) -->
@@ -341,6 +388,29 @@
                 <h3>Modules par Lignes de Code</h3>
                 <div class="chart-container large">
                     <canvas id="modulesChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Modules par Catégorie</h3>
+                <div class="chart-container">
+                    <canvas id="modulesCategoryChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>61 Postes Construction par Département</h3>
+                <div class="chart-container">
+                    <canvas id="postesChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subventions Québec -->
+        <h2 class="section-title">50+ Programmes de Subventions Québec</h2>
+        <div class="charts-grid">
+            <div class="chart-card full-width">
+                <h3>Subventions par Catégorie</h3>
+                <div class="chart-container">
+                    <canvas id="subventionsChart"></canvas>
                 </div>
             </div>
         </div>
@@ -391,7 +461,7 @@
         </div>
 
         <!-- SWOT -->
-        <h2 class="section-title">Analyse SWOT - Constructo AI</h2>
+        <h2 class="section-title">Analyse SWOT Complète - Constructo AI</h2>
         <div class="charts-grid">
             <div class="chart-card">
                 <h3>Forces (Impact %)</h3>
@@ -400,9 +470,44 @@
                 </div>
             </div>
             <div class="chart-card">
+                <h3>Faiblesses (Impact %)</h3>
+                <div class="chart-container">
+                    <canvas id="weaknessesChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
                 <h3>Opportunités (Impact %)</h3>
                 <div class="chart-container">
                     <canvas id="opportunitiesChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Menaces (Impact %)</h3>
+                <div class="chart-container">
+                    <canvas id="threatsChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Positionnement Marché -->
+        <h2 class="section-title">Positionnement Stratégique</h2>
+        <div class="charts-grid">
+            <div class="chart-card full-width">
+                <h3>Position sur le Marché (Coût vs Taille Cible)</h3>
+                <div class="chart-container large">
+                    <canvas id="positionChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Score par Catégorie d'ERP</h3>
+                <div class="chart-container">
+                    <canvas id="categoryScoreChart"></canvas>
+                </div>
+            </div>
+            <div class="chart-card">
+                <h3>Avantages Compétitifs (Impact Productivité)</h3>
+                <div class="chart-container">
+                    <canvas id="advantagesChart"></canvas>
                 </div>
             </div>
         </div>
@@ -571,7 +676,8 @@
 
         <footer>
             <p>Analyse Comparative ERP - Constructo AI</p>
-            <p>Généré le 24 Décembre 2025 | Données basées sur l'analyse du code source et benchmark marché</p>
+            <p><strong>30 Graphiques Interactifs</strong> | 12 ERP Analysés | 21+ Datasets</p>
+            <p>Généré le 24 Décembre 2025 | Données basées sur l'analyse du code source et benchmark marché Québec/Canada</p>
         </footer>
     </div>
 
@@ -1082,6 +1188,363 @@
                         grid: { color: 'rgba(255,255,255,0.05)' }
                     }
                 }
+            }
+        });
+
+        // 16. Radar Constructo vs Maestro
+        new Chart(document.getElementById('radarChart3'), {
+            type: 'radar',
+            data: {
+                labels: ['Construction', 'IA Native', 'Comptabilité', 'Facilité', 'Coût PME', 'Scalabilité', 'Multi-Tenant', 'Conformité QC', 'API', 'Mobile'],
+                datasets: [
+                    {
+                        label: 'Constructo AI',
+                        data: [5, 5, 5, 4, 5, 4, 5, 5, 4, 3],
+                        backgroundColor: 'rgba(46, 134, 171, 0.2)',
+                        borderColor: colors.constructo,
+                        pointBackgroundColor: colors.constructo,
+                    },
+                    {
+                        label: 'Maestro',
+                        data: [5, 1, 4, 3, 3, 3, 3, 5, 3, 2],
+                        backgroundColor: 'rgba(30, 136, 229, 0.2)',
+                        borderColor: colors.maestro,
+                        pointBackgroundColor: colors.maestro,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        min: 0,
+                        max: 5,
+                        ticks: { stepSize: 1 },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        angleLines: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // 17. Radar Constructo vs Jonas
+        new Chart(document.getElementById('radarChart4'), {
+            type: 'radar',
+            data: {
+                labels: ['Construction', 'IA Native', 'Comptabilité', 'Facilité', 'Coût PME', 'Scalabilité', 'Multi-Tenant', 'Conformité QC', 'API', 'Mobile'],
+                datasets: [
+                    {
+                        label: 'Constructo AI',
+                        data: [5, 5, 5, 4, 5, 4, 5, 5, 4, 3],
+                        backgroundColor: 'rgba(46, 134, 171, 0.2)',
+                        borderColor: colors.constructo,
+                        pointBackgroundColor: colors.constructo,
+                    },
+                    {
+                        label: 'Jonas',
+                        data: [5, 1, 5, 3, 3, 4, 4, 3, 4, 2],
+                        backgroundColor: 'rgba(93, 93, 93, 0.2)',
+                        borderColor: colors.jonas,
+                        pointBackgroundColor: colors.jonas,
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        min: 0,
+                        max: 5,
+                        ticks: { stepSize: 1 },
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        angleLines: { color: 'rgba(255,255,255,0.1)' }
+                    }
+                }
+            }
+        });
+
+        // 18. Quebec ERP Chart
+        new Chart(document.getElementById('quebecErpChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Constructo AI', 'Maestro', 'Jonas', 'CTRL', 'Elper'],
+                datasets: [{
+                    label: 'Score Global (%)',
+                    data: [86, 72, 75, 68, 58],
+                    backgroundColor: [colors.constructo, colors.maestro, colors.jonas, colors.ctrl, colors.elper],
+                    borderRadius: 8,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' } }
+                }
+            }
+        });
+
+        // 19. Quebec Features Comparison
+        new Chart(document.getElementById('quebecFeaturesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Paie CCQ', 'Loi 16', 'Subventions', 'IA Native'],
+                datasets: [
+                    { label: 'Constructo AI', data: [1, 1, 1, 1], backgroundColor: colors.constructo },
+                    { label: 'Maestro', data: [1, 0, 0, 0], backgroundColor: colors.maestro },
+                    { label: 'Jonas', data: [0, 0, 0, 0], backgroundColor: colors.jonas },
+                    { label: 'CTRL', data: [0, 0, 0, 0], backgroundColor: colors.ctrl },
+                    { label: 'Elper', data: [0, 0, 0, 0], backgroundColor: colors.elper }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom' } },
+                scales: {
+                    y: { max: 1.2, ticks: { callback: v => v ? '✓' : '' } }
+                }
+            }
+        });
+
+        // 20. Ancienneté Chart
+        new Chart(document.getElementById('ancienneteChart'), {
+            type: 'scatter',
+            data: {
+                datasets: [
+                    { label: 'Constructo AI', data: [{x: 2024, y: 86}], backgroundColor: colors.constructo, pointRadius: 15 },
+                    { label: 'Maestro', data: [{x: 1989, y: 72}], backgroundColor: colors.maestro, pointRadius: 12 },
+                    { label: 'Jonas', data: [{x: 1990, y: 75}], backgroundColor: colors.jonas, pointRadius: 12 },
+                    { label: 'CTRL', data: [{x: 1990, y: 68}], backgroundColor: colors.ctrl, pointRadius: 10 },
+                    { label: 'Elper', data: [{x: 2016, y: 58}], backgroundColor: colors.elper, pointRadius: 10 }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { title: { display: true, text: 'Année de Fondation' }, min: 1985, max: 2030 },
+                    y: { title: { display: true, text: 'Score (%)' }, min: 50, max: 100 }
+                }
+            }
+        });
+
+        // 21. Experts Category Chart
+        new Chart(document.getElementById('expertsCategoryChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Métiers Spécialisés (25)', 'Construction Générale (15)', 'Conformité (11)', 'Gestion & Finance (10)'],
+                datasets: [{
+                    data: [25, 15, 11, 10],
+                    backgroundColor: [colors.constructo, colors.procore, colors.oracle, colors.sage],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'right' } }
+            }
+        });
+
+        // 22. AI Features Chart
+        new Chart(document.getElementById('aiFeaturesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Chat Contextuel', 'Génération Devis', 'CPA Virtuel', 'Analyse Docs'],
+                datasets: [
+                    { label: 'Constructo AI', data: [1, 1, 1, 1], backgroundColor: colors.constructo },
+                    { label: 'Procore', data: [1, 0, 0, 1], backgroundColor: colors.procore },
+                    { label: 'SAP', data: [0, 0, 0, 0], backgroundColor: colors.sap },
+                    { label: 'Oracle', data: [0, 0, 0, 0], backgroundColor: colors.oracle }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom' } },
+                scales: { y: { max: 1.2, ticks: { callback: v => v ? '✓' : '' } } }
+            }
+        });
+
+        // 23. Modules Category Chart
+        new Chart(document.getElementById('modulesCategoryChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['CRM & Ventes', 'Finance', 'Projets', 'RH', 'IA', 'Québec', 'Inventaire'],
+                datasets: [{
+                    data: [17501, 14736, 13910, 9277, 11562, 7915, 5876],
+                    backgroundColor: [
+                        colors.constructo, colors.procore, colors.oracle,
+                        colors.sap, colors.sage, colors.maestro, colors.quickbooks
+                    ],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'right' } }
+            }
+        });
+
+        // 24. Postes Construction Chart
+        new Chart(document.getElementById('postesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['BÉTON', 'PLOMBERIE', 'ÉLECTRICITÉ', 'TERRASSEMENT', 'CHARPENTE', 'MENUISERIE', 'CVC', 'TOITURE', 'MAÇONNERIE', 'ISOLATION', 'PAYSAGE'],
+                datasets: [{
+                    label: 'Nombre de Postes',
+                    data: [5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3],
+                    backgroundColor: colors.constructo,
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { x: { grid: { color: 'rgba(255,255,255,0.05)' } } }
+            }
+        });
+
+        // 25. Subventions Chart
+        new Chart(document.getElementById('subventionsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Efficacité Énergétique', 'Innovation & R&D', 'PME & Entrepreneurs', 'Construction Durable', 'Formation', 'Régions', 'Export'],
+                datasets: [{
+                    label: 'Programmes',
+                    data: [12, 10, 8, 7, 6, 5, 4],
+                    backgroundColor: [
+                        colors.constructo, colors.procore, colors.oracle,
+                        colors.maestro, colors.jonas, colors.ctrl, colors.elper
+                    ],
+                    borderRadius: 8,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false }, title: { display: true, text: '52 Programmes de Subventions Québec' } },
+                scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' } } }
+            }
+        });
+
+        // 26. Weaknesses Chart
+        new Chart(document.getElementById('weaknessesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Pas Mobile Native', 'Certifications Manq.', 'Pas BIM', 'Marque Nouvelle', 'Doc Limitée', 'FR Seulement'],
+                datasets: [{
+                    label: 'Impact (%)',
+                    data: [75, 70, 60, 55, 50, 45],
+                    backgroundColor: 'rgba(220, 53, 69, 0.7)',
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { x: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' } } }
+            }
+        });
+
+        // 27. Threats Chart
+        new Chart(document.getElementById('threatsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Procore Copilot', 'SAP/Oracle IA', 'Entrants IA-first', 'Dépendance API', 'Régulation', 'Open-source'],
+                datasets: [{
+                    label: 'Impact (%)',
+                    data: [70, 65, 60, 55, 50, 45],
+                    backgroundColor: 'rgba(255, 193, 7, 0.7)',
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { x: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' } } }
+            }
+        });
+
+        // 28. Position Chart (Bubble)
+        new Chart(document.getElementById('positionChart'), {
+            type: 'bubble',
+            data: {
+                datasets: [
+                    { label: 'SAP', data: [{x: 90, y: 95, r: 20}], backgroundColor: colors.sap },
+                    { label: 'Oracle', data: [{x: 85, y: 90, r: 18}], backgroundColor: colors.oracle },
+                    { label: 'Jonas', data: [{x: 65, y: 65, r: 12}], backgroundColor: colors.jonas },
+                    { label: 'Procore', data: [{x: 60, y: 55, r: 15}], backgroundColor: colors.procore },
+                    { label: 'Buildertrend', data: [{x: 50, y: 50, r: 12}], backgroundColor: colors.buildertrend },
+                    { label: 'Maestro', data: [{x: 45, y: 55, r: 11}], backgroundColor: colors.maestro },
+                    { label: 'Constructo AI', data: [{x: 35, y: 40, r: 14}], backgroundColor: colors.constructo },
+                    { label: 'Odoo', data: [{x: 40, y: 35, r: 9}], backgroundColor: colors.odoo },
+                    { label: 'Elper', data: [{x: 25, y: 25, r: 8}], backgroundColor: colors.elper },
+                    { label: 'QuickBooks', data: [{x: 15, y: 20, r: 8}], backgroundColor: colors.quickbooks },
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { title: { display: true, text: 'Taille Marché Cible (PME → Enterprise)' }, min: 0, max: 100 },
+                    y: { title: { display: true, text: 'Complexité & Coût' }, min: 0, max: 100 }
+                }
+            }
+        });
+
+        // 29. Category Score Chart
+        new Chart(document.getElementById('categoryScoreChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Spécialisé NA', 'Focus Québec', 'Enterprise', 'PME Générique'],
+                datasets: [{
+                    label: 'Score Moyen (%)',
+                    data: [74, 71, 71, 61],
+                    backgroundColor: [colors.procore, colors.constructo, colors.sap, colors.quickbooks],
+                    borderRadius: 8,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { display: false } },
+                scales: { y: { max: 100, grid: { color: 'rgba(255,255,255,0.05)' } } }
+            }
+        });
+
+        // 30. Advantages Chart (Waterfall-style)
+        new Chart(document.getElementById('advantagesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Base', 'IA Native', 'Conformité QC', 'Comptabilité', 'Paie', 'Cloud', 'API'],
+                datasets: [{
+                    label: 'Productivité (%)',
+                    data: [100, 40, 25, 20, 15, 10, 8],
+                    backgroundColor: [
+                        'rgba(108, 117, 125, 0.7)',
+                        colors.constructo, colors.maestro, colors.procore, colors.jonas, colors.ctrl, colors.elper
+                    ],
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    title: { display: true, text: 'Impact Cumulatif sur Productivité: +218%' }
+                },
+                scales: { y: { grid: { color: 'rgba(255,255,255,0.05)' } } }
             }
         });
     </script>
